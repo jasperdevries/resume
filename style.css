@@ -1,0 +1,61 @@
+body {
+    font-family: 'ubuntu';
+    color: darkslategray;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.full-width {
+    width: 100%;
+}
+
+.header {
+    background-color: lightblue;
+    height: 95px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header > .photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: -5px -20px;
+    margin-top: 40px;
+    background-color: white;
+    border: 5px solid lightblue;
+}
+
+.content {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3 {
+    border-bottom: 1px solid lightblue;
+}
+
+.experience li {
+    margin-bottom: 15px;
+}
+.experience li:not(:last-child) {
+    border-bottom: 1px groove lightsteelblue;
+}
+
+.experience p {
+    font-size: 15px;
+}
+
+.experience .daterange {
+    float: right;
+    font-size: 12px;
+}
