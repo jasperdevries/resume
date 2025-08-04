@@ -6,3 +6,6 @@
     right: 10px;
     position: fixed;
 }
+.container > .sidebar > .personal a {
+    text-decoration: none;
+}

@@ -45,6 +45,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
     border-bottom: 1px solid lightblue;
 }
+.container > .sidebar > .personal a:link, .container > .sidebar > .personal a:visited {
+    color: darkslategray;
+}
 .container > .sidebar > *:not(.skills) > div {
     padding-top: 5px;
     display: flex;
@@ -83,6 +86,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 75%;
     height: 100%;
     background-color: royalblue;
+}
+.bar > .bar-25 {
+    width: 25%;
+    height: 100%;
+    background-color: darkgoldenrod;
 }
 
 .content {
