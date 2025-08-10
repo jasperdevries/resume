@@ -9,3 +9,7 @@
 .container > .sidebar > .personal a {
     text-decoration: none;
 }
+
+.projects {
+    display: none;
+}

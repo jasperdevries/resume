@@ -78,6 +78,12 @@
                             <div class="bar-25"></div>
                         </div>
                     </div>
+                    <div>
+                        <div>vim</div>
+                        <div class="bar">
+                            <div class="bar-55"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="content">
@@ -89,7 +95,10 @@
                             <h5>Backend Developer</h5>
                             <p>
                                 Bij Emendis werk ik voor meerdere verschillende klanten aan de systemen die wij voor hun gebouwd hebben.
-                                Hiernaast werk ik ook aan verschillende eigen SaaS producten beide als onderhoud en het maken van nieuwe functionaliteiten.
+                                H waarin je alles in je huis op 1 plek kan bedienen en kan automatiseren. <br />
+                                Om te kunnen automatiseren gebruik je normaal gesproken de UI van home assistant maar om dat iets uit te breiden heb ik een mogelijkheid gemaakt om in php automatiseringen te kunnen maken.
+
+                                Hiervoor gebruik ik een event systeem die ik zelf heb gebouwd waar ik met behulp van php attributes kan aangeven welke classes moeten draaien voor een bepaald event.iernaast werk ik ook aan verschillende eigen SaaS producten beide als onderhoud en het maken van nieuwe functionaliteiten.
                             </p>
                         </li>
                         <li>
@@ -104,7 +113,7 @@
                             <h4>MarketingFX<span class="daterange">juni 2017 - januari 2018</span></h4>
                             <h5>Developer</h5>
                             <p>
-                                Bij MarketingFX heb ik gewerkt aan het online marketing product die daar word aangeboden. Dit was beide onderhoud & het toevoegen van nieuwe functionaliteiten zoals een narrowcasting systeem.
+                                Bij MarketingFX heb ik gewerkt aan het online marketing platform die daar word aangeboden. Dit was beide onderhoud & het toevoegen van nieuwe functionaliteiten zoals een narrowcasting systeem.
                             </p>
                         </li>
                         <li>
@@ -117,9 +126,42 @@
                     </ul>
                 </div>
             </div>
+            <div class="projects">
+                <h3>Projecten</h3>
+                <ul>
+                    <li>
+                        <h4>Weebsquad</h4>
+                        <p>
+                            Met een aantal vrienden kijken we iedere twee weken samen naar anime. Om te beslissen welk anime wij gaan kijken, en om te plannen wanneer we weer samen komen hebben we een web app gemaakt. <br />
+                            In deze webapp kunnen we door middel van een randomizer kiezen welke anime we als volgende gaan kijken. Om deze keuze te maken voegt iedereen een X aantal series toe aan een lijst waar we daarna de randomizer uit laten kiezen.
+                            We hebben hier een algoritme voor gebouwd die ervoor zorgt dat mensen die al langer niet gekozen zijn meer kans hebben om nu gekozen te worden, en series die vaker in de lijst hebben gestaan ook meer kans hebben om gekozen te worden.<br />
+                            Hiernaast hebben we een eigen datumprikker gebouwd om in te plannen wanneer we weer samen komen. Daar kunnen we keuzes geven in datums en kan iedereen aangeven wanneer zei wel of niet kunnen, of wanneer mensen misschien wel kunnen.
+                            Wanneer er datums gekozen zijn worden deze toegevoegd aan de calender die iedereen kan toevoegen aan hun persoonlijke agenda. Er worden ook reminder e-mails gestuurd naar iedereen zodat we er altijd aan denken dat we iets hebben.
+                        </p>
+                        <div class="gallery">
+                            <div onclick="openImage(event)"><img src="projects/weebsquad/show_selection.png" loading="lazy"></div>
+                            <div onclick="openImage(event)"><img src="projects/weebsquad/method_caching.png" loading="lazy"></div>
+                            <div onclick="openImage(event)"><img src="projects/weebsquad/cached_method.png" loading="lazy"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Home assistant php automations <a href="https://github.com/jasperdevries/ha-php-automations"><i class="lni lni-github"></i></a></h4>
+                        <p>
+                            Voor mijn smarthome draai ik een systeem genaamd <a href="https://www.home-assistant.io/" target="_blank">Home Assistant</a> waarin je alles in je huis op 1 plek kan bedienen en kan automatiseren. <br />
+                            Om te kunnen automatiseren gebruik je normaal gesproken de UI van home assistant maar om dat iets uit te breiden heb ik een mogelijkheid gemaakt om in php automatiseringen te kunnen maken.
+                            Hiervoor gebruik ik een event systeem die ik zelf heb gebouwd waar ik met behulp van php attributes kan aangeven welke classes moeten draaien voor een bepaald event.
+                        </p>
+                        <div class="gallery">
+                            <div onclick="openImage(event)"><img src="projects/ha_automations/event_routing.png" loading="lazy"></div>
+                            <div onclick="openImage(event)"><img src="projects/ha_automations/config_class.png" loading="lazy"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="footer">
-            Om de meest up to date versie te zien ga naar jasper.thevries.dev
+            Ga naar jasper.thevries.dev om een meer uitgebreide versie te zien
         </div>
     </body>
+    <script src="gallery.js" defer></script>
 </html>

@@ -87,6 +87,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     background-color: royalblue;
 }
+.bar > .bar-55 {
+    width: 55%;
+    height: 100%;
+    background-color: goldenrod;
+}
 .bar > .bar-25 {
     width: 25%;
     height: 100%;
@@ -99,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
 }
 
-.content h3 {
+.content h3, .projects h3 {
     border-bottom: 1px solid lightblue;
 }
 
@@ -117,6 +122,38 @@ h1, h2, h3, h4, h5, h6 {
 .experience .daterange, .school .daterange {
     float: right;
     font-size: 12px;
+}
+
+.projects {
+    grid-column: span 2;
+}
+
+.projects li:not(:last-child) {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px dashed lightblue;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    gap: 10px;
+    align-items: center;
+}
+
+.gallery img {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 2px;
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.gallery img:hover {
+    cursor: pointer;
+    border-color: royalblue;
 }
 
 .footer {
