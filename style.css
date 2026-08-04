@@ -77,6 +77,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     background-color: royalblue;
 }
+.bar > .bar-90 {
+    width: 90%;
+    height: 100%;
+    background-color: royalblue;
+}
 .bar > .bar-85 {
     width: 85%;
     height: 100%;
@@ -86,6 +91,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 75%;
     height: 100%;
     background-color: royalblue;
+}
+.bar > .bar-65 {
+    width: 65%;
+    height: 100%;
+    background-color: goldenrod;
 }
 .bar > .bar-55 {
     width: 55%;
